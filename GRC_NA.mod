@@ -9,7 +9,7 @@ NEURON {
 	SUFFIX GRC_NA
 	USEION na READ ena WRITE ina
 	RANGE gnabar, ina, g
-	RANGE alfa, beta, gamma, delta, epsilon, teta, Con, Coff, Oon, Ooff, Lon, Loff
+	RANGE gamma, delta, epsilon, Con, Coff, Oon, Ooff, Lon, Loff
 	RANGE Aalfa, Valfa, Abeta, Vbeta, Ateta, Vteta, Agamma, Adelta, Aepsilon, ACon, ACoff, AOon, AOoff, ALon, ALoff, Vshift
 	RANGE n1, n2, n3, n4, c, d, V_threshold, use_threshold
 }
